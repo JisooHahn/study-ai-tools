@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>우리 모임 소개</title>
+</head>
+<body>
+  <h1>러닝크루 한강</h1>
+  <p>매주 화요일과 토요일에 한강에서 함께 달립니다.
+  <ul>
+    <li>화요일 20:00 야간런</li>
+    <li>토요일 09:00 정기런
+  </ul>
+  <button onclick="showSchedule()">이번 주 일정 보기</button>
+  <div id="schedule"></div>
+  <script>
+    // showSchedule 함수를 정의하지 않았다 — 버튼을 누르면 콘솔에 에러가 난다
+    document.getElementById("schedul").innerText = "일정을 불러오는 중...";
+  </script>
+</body>
